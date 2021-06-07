@@ -1,25 +1,18 @@
+import './App.css';
 import { createStore } from 'redux';
-import { provider } from 'react-redux';
+import { Provider } from 'react-redux';
 
 import reducers from './reducers';
 
 const store = createStore(reducers);
 
 
-import logo from './logo.svg';
-import './App.css';
 
-
-class App extends Component{
-
-  render ()
-  {
+function App() {
   return (
     <Provider store={store}>
-      <h1>Test</h1>
+      <h1>Hello</h1>
     </Provider>
   );
 }
-}
-
 export default App;
