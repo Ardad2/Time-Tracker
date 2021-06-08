@@ -15,7 +15,7 @@ export default function NewTimer() {
         <div className="NewTimer">
             <input 
             type='text'
-            placeholder="Enter Timer Name"
+            placeholder="What are you doing right now?"
             name="name"
             value={name}
             onChange={(e) => setName(e.target.value)}

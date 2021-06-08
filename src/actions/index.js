@@ -33,3 +33,12 @@ export const update = (deltaTime) => {
     payload: { deltaTime }
   }
 }
+
+export const REMOVE_TIMER = 'REMOVE_TIMER'
+export const removeTimer = (index) =>
+{
+    return {
+        type: REMOVE_TIMER,
+        payload: { index }
+    }
+}

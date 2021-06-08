@@ -2,6 +2,7 @@ import React, {  } from 'react'
 import { useDispatch } from 'react-redux'
 
 import { toggleTimer } from '../actions'
+import { removeTimer} from '../actions'
 
 import { formatTime } from '../utils';
 
@@ -22,7 +23,7 @@ export default function TimerView(props) {
         {timer.isRunning ? "Stop" : "Start"}
       </button>
       <button id ="delete" className="btn btn-primary btn-sm m-2" 
-        onClick={() => dispatch(toggleTimer(index))}
+        onClick={() => dispatch(removeTimer(index))}
       >
         X
         </button>
