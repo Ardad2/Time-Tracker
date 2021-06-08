@@ -8,10 +8,12 @@ import throttle from 'lodash/throttle'
 import reducers from './reducers';
 import { loadState, saveState} from './utils'
 
+import NavBar from './components/navbar';
 import NewTimer from './components/NewTimer'
 import ListTimers from './components/ListTimers'
 
-const store = createStore(reducers);
+const persistedState = loadState();
+const store = createStore(reducers, persistedState);
 
 store.subscribe(throttle(() => {
   saveState(store.getState())
@@ -25,15 +27,20 @@ setInterval(() => {
   store.dispatch(update(deltaTime))
 }, 50)
 
+let todayDate = new Date();
+
 function App() {
   return (
+    <React.Fragment>
+            <NavBar />
     <Provider store={store}>
       <div className="App">
-      <h1>Timer</h1>
+      <h1>{todayDate.toDateString()}</h1>
       </div>
       <NewTimer />
       <ListTimers />
     </Provider>
+    </React.Fragment>
   );
 }
 
