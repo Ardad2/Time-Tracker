@@ -12,6 +12,9 @@ import NavBar from './components/navbar';
 import NewTimer from './components/NewTimer'
 import ListTimers from './components/ListTimers'
 
+
+import Header from './components/Header/Header'
+
 const persistedState = loadState();
 const store = createStore(reducers, persistedState);
 
@@ -32,8 +35,8 @@ let todayDate = new Date();
 function App() {
   return (
     <React.Fragment>
-            <NavBar />
     <Provider store={store}>
+    <Header />
       <div className="App">
       <h1>{todayDate.toDateString()}</h1>
       </div>

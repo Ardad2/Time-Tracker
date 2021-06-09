@@ -31,7 +31,14 @@
 .TimerView > #delete {
   padding: 0.25rem 0.5rem;
   border: 1px solid #000;
-  background-color: red;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 4rem;
+}
+.TimerView > #reset {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #000;
   color: #fff;
   font-size: 1rem;
   font-weight: bold;
