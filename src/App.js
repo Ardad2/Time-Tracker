@@ -13,7 +13,7 @@ import NewTimer from './components/NewTimer'
 import ListTimers from './components/ListTimers'
 
 
-import Header from './components/Header/Header'
+//import Header from './components/Header/Header'
 
 const persistedState = loadState();
 const store = createStore(reducers, persistedState);
@@ -36,7 +36,6 @@ function App() {
   return (
     <React.Fragment>
     <Provider store={store}>
-    <Header />
       <div className="App">
       <h1>{todayDate.toDateString()}</h1>
       </div>

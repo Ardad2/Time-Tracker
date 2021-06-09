@@ -42,3 +42,12 @@ export const removeTimer = (index) =>
         payload: { index }
     }
 }
+
+export const RESET_TIMER = 'RESET_TIMER'
+export const resetTimer = (index) => 
+{
+    return {
+        type: RESET_TIMER,
+        payload: { index }
+    }
+}

@@ -5,6 +5,8 @@ import timersReducer from '../reducers/timersReducer'
 
 import TimerView from './TimerView'
 
+import './ListTimers.css'
+
 export default function ListTimers() {
 
 const timers = useSelector(state => state.timers)
