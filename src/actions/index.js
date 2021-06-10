@@ -1,9 +1,9 @@
 export const NEW_TIMER = 'NEW_TIMER'
-export const addTimer = (name) =>
+export const addTimer = (name, category) =>
 {
     return {
         type: NEW_TIMER,
-        payload: { name }
+        payload: { name, category }
     }
 }
 

@@ -12,7 +12,7 @@ export default function ListTimers() {
 const timers = useSelector(state => state.timers)
 
     return (
-        <div>
+        <div className="TimerList">
             {timers.map((timer,i) => {
                 return (
                     <TimerView

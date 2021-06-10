@@ -13,7 +13,8 @@ const timersReducer = (state = [], action) => {
             })
         case NEW_TIMER:
             const name = action.payload.name ? action.payload.name : `Timer ${state.length}`
-            return [new Timer(name),...state]
+            const category = action.payload.category ? action.payload.category : `Uncategorized`
+            return [new Timer(name,category),...state]
 
 
         case TOGGLE_TIMER:
