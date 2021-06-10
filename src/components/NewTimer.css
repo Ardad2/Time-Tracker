@@ -1,9 +1,15 @@
 .NewTimer {
+  width: auto;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-top: 2px;
+  border: 1px solid #000;
 }
 
 .NewTimer > input {
+  flex: 1;
   font-size: 1rem;
   padding: 0.25rem 0.5rem;
   border: 1px solid;

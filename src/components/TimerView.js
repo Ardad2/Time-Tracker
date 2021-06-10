@@ -16,8 +16,8 @@ export default function TimerView(props) {
 
   return (
     <div className="TimerView">
-      <h2>{timer.name}</h2>
-      <h2>{timer.category}</h2>
+      <h3>{timer.name}</h3>
+      <p>({timer.category})</p>
       <h1>{formatTime(timer.time)}</h1>
       <button className={timer.isRunning? "btn btn-danger m-2":"btn btn-success m-2"}
         onClick={() => dispatch(toggleTimer(index))}
