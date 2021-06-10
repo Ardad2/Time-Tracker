@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ardad2.github.io/Time-Tracker/static/css/main.1406a5f0.chunk.css",
-    "main.js": "/ardad2.github.io/Time-Tracker/static/js/main.650f768c.chunk.js",
-    "main.js.map": "/ardad2.github.io/Time-Tracker/static/js/main.650f768c.chunk.js.map",
+    "main.js": "/ardad2.github.io/Time-Tracker/static/js/main.9b497af9.chunk.js",
+    "main.js.map": "/ardad2.github.io/Time-Tracker/static/js/main.9b497af9.chunk.js.map",
     "runtime-main.js": "/ardad2.github.io/Time-Tracker/static/js/runtime-main.fe747d94.js",
     "runtime-main.js.map": "/ardad2.github.io/Time-Tracker/static/js/runtime-main.fe747d94.js.map",
     "static/css/2.4f8976c6.chunk.css": "/ardad2.github.io/Time-Tracker/static/css/2.4f8976c6.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.4f8976c6.chunk.css",
     "static/js/2.39a2590d.chunk.js",
     "static/css/main.1406a5f0.chunk.css",
-    "static/js/main.650f768c.chunk.js"
+    "static/js/main.9b497af9.chunk.js"
   ]
 }
