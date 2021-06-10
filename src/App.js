@@ -43,7 +43,6 @@ function App() {
 
       <div className="Main">
         <Day/>
-        <Day/>
       </div>
 
       
