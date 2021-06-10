@@ -7,12 +7,12 @@ class NavBar extends Component {
     return (
       <nav
         id="sidebarMenu"
-        class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse"
+        className="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse"
       >
-        <div class="position-sticky pt-3">
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+        <div className="position-sticky pt-3">
+          <ul className="nav flex-column">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -27,8 +27,8 @@ class NavBar extends Component {
                 <h2>Daily Tracker</h2>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -47,8 +47,8 @@ class NavBar extends Component {
                 Orders
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -68,8 +68,8 @@ class NavBar extends Component {
                 Products
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -90,8 +90,8 @@ class NavBar extends Component {
                 Customers
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -111,8 +111,8 @@ class NavBar extends Component {
                 Reports
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -134,9 +134,13 @@ class NavBar extends Component {
             </li>
           </ul>
 
-          <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+          <h6 className="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
             <span>Saved reports</span>
-            <a class="link-secondary" href="#" aria-label="Add a new report">
+            <a
+              className="link-secondary"
+              href="#"
+              aria-label="Add a new report"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -155,9 +159,9 @@ class NavBar extends Component {
               </svg>
             </a>
           </h6>
-          <ul class="nav flex-column mb-2">
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+          <ul className="nav flex-column mb-2">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -179,8 +183,8 @@ class NavBar extends Component {
                 Current month
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -202,8 +206,8 @@ class NavBar extends Component {
                 Last quarter
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -225,8 +229,8 @@ class NavBar extends Component {
                 Social engagement
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

@@ -36,11 +36,18 @@ function App() {
   return (
     <React.Fragment>
     <Provider store={store}>
-      <div className="App">
+    <div className="App">
+
+    <NavBar />
+
+      <div className="Main">
       <h1>{todayDate.toDateString()}</h1>
-      </div>
       <NewTimer />
       <ListTimers />
+      </div>
+
+      
+      </div>
     </Provider>
     </React.Fragment>
   );
