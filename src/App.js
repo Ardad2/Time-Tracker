@@ -11,6 +11,7 @@ import { loadState, saveState} from './utils'
 import NavBar from './components/navbar';
 import NewTimer from './components/NewTimer'
 import ListTimers from './components/ListTimers'
+import Day from './components/Day'
 
 
 //import Header from './components/Header/Header'
@@ -41,9 +42,8 @@ function App() {
     <NavBar />
 
       <div className="Main">
-      <h1>{todayDate.toDateString()}</h1>
-      <NewTimer />
-      <ListTimers />
+        <Day/>
+        <Day/>
       </div>
 
       
