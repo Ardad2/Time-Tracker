@@ -2,9 +2,11 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
+  background: #a3c2c2;
 }
 .Main {
   height: 100vh;
+  padding: 10px;
   display: flex;
   flex-direction: column;
 }

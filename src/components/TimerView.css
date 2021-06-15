@@ -1,5 +1,5 @@
 .TimerView {
-  width: auto;
+  width: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
