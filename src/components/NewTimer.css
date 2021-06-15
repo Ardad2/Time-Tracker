@@ -1,26 +1,31 @@
-.NewTimer {
-  width: auto;
+.newTimer {
+  width: 95vh;
+  height: 75px;
+  padding: 6px;
+  background-color: white;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: baseline;
-  margin-top: 2px;
-  border: 1px solid #000;
+  justify-content: space-between;
+  box-shadow: 1px 1px;
 }
 
-.NewTimer > input {
+.newTimer > input {
+  outline: none;
+  height: 50px;
+  flex: 1.5;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.newTimer > button {
   flex: 1;
+  height: 50px;
   font-size: 1rem;
   padding: 0.25rem 0.5rem;
-  border: 1px solid;
-  margin: 0;
-}
-
-.NewTimer > button {
-  font-size: 1rem;
-  padding: 0.25rem 0.5rem;
-  border: 1px solid #000;
-  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: green;
   color: #fff;
   font-weight: bold;

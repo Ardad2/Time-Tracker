@@ -1,11 +1,13 @@
 .TimerView {
-  width: 100vh;
+  width: 95vh;
+  height: 75px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: baseline;
   margin-top: 2px;
   border: 1px solid #000;
+  background-color: white;
 }
 
 .TimerView > h1 {

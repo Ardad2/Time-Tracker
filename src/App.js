@@ -8,10 +8,10 @@ import throttle from "lodash/throttle";
 import reducers from "./reducers";
 import { loadState, saveState } from "./utils";
 
+import Headbar from "./components/Headbar";
 import NavBar from "./components/navbar";
 import NewTimer from "./components/NewTimer";
 import ListTimers from "./components/ListTimers";
-import Day from "./components/Day";
 
 //import Header from './components/Header/Header'
 
@@ -37,11 +37,12 @@ let todayDate = new Date();
 function App() {
   return (
     <Provider store={store}>
+      <Headbar />
       <div className="App">
         <NavBar />
         <div className="Main">
           <NewTimer />
-          <Day />
+          <ListTimers />
         </div>
       </div>
     </Provider>
